@@ -34,9 +34,9 @@ def PrintResults(pdf_a, filename):
 
 def main():
     # Relative path to the folder containing the test files.
-    input_path = "/home/wuyinjun/workspace/Image2pdf/src/files/"
-    output_path = "/home/wuyinjun/workspace/Image2pdf/src/output_files/"
-    filename = "VLDB_Award_2021.pdf"
+    input_path = "/home/wuyinjun/workspace/Image2pdf/src/files/" #input file path
+    output_path = "/home/wuyinjun/workspace/Image2pdf/src/output_files/" #output file path, which has better be different from input file path
+    filename = "VLDB_Award_2021.pdf" #input file name, which is also the output file name
     
     PDFNet.Initialize()
     PDFNet.SetColorManagement()     # Enable color management (required for PDFA validation).
